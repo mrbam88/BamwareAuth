@@ -7,11 +7,13 @@ let package = Package(
     products: [
         .library(name: "BamwareAuth", targets: ["BamwareAuth"]),
     ],
-    dependencies: [],
+    dependencies: [
+        .package(url: "https://github.com/mrbam88/BamwareCore.git", branch: "main")
+    ],
     targets: [
         .target(
             name: "BamwareAuth",
-            dependencies: []
+            dependencies: ["BamwareCore"]
         ),
         .testTarget(
             name: "BamwareAuthTests",

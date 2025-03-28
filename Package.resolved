@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "bamwarecore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mrbam88/BamwareCore.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "36b1791cec7e5ff4f715ac4a6d9725434658e606"
+      }
+    }
+  ],
+  "version" : 2
+}
